@@ -1,0 +1,27 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "donjayamanne.python-extension-pack",
+        "ms-python.debugpy",
+        "charliermarsh.ruff",
+        "ms-toolsai.jupyter",
+        "eamodio.gitlens",
+        "github.vscode-github-actions",
+        "github.copilot",
+        "GitHub.vscode-pull-request-github",
+        "ms-vscode-remote.remote-containers",
+        "ms-azuretools.vscode-docker",
+        "alexcvzz.vscode-sqlite",
+        "postman.postman-for-vscode",
+        "tamasfe.even-better-toml",
+        "bierner.markdown-mermaid",
+        "jebbs.markdown-extended",
+        "yzane.markdown-pdf",
+        "johnpapa.vscode-peacock",
+        "aaron-bond.better-comments",
+        "akamud.vscode-theme-onedark",
+        "PKief.material-icon-theme",
+        "christian-kohler.path-intellisense"
+    ]
+}

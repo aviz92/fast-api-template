@@ -1,0 +1,23 @@
+setuptools
+wheel
+python-dotenv
+pre-commit
+pydantic
+pytest
+tenacity
+requests
+
+# ## Public Aviz92 repos ##
+custom-python-logger
+pyrest-model-client
+pytest-dynamic-parameterize
+pytest-plugins
+python-base-toolkit
+python-custom-exceptions
+python-databases
+python-gitlab-plus
+python-github-plus
+python-jira-plus
+python-notion-plus
+python-simple-email-sender
+python-vault
