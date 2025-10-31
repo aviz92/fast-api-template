@@ -1,34 +1,5 @@
-# Python JIRA Plus
-< description >
-
----
-
-## Features
-- ✅
-
----
-
-## Installation
-```bash
-pip install <python lib name>
-```
-
----
-
-## Configuration
-The package uses environment variables for authentication and configuration:
-
-```bash
-# Required environment variables
-USERNAME=your_username
-TOKEN=your_api_token
-```
-
-## Examples
-### < Some Python example >
-```python
-# Example code here
-```
+# Python FastAPI Template
+A template repository for building FastAPI applications with Python.
 
 ---
 
