@@ -75,3 +75,24 @@ async def get_post(
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.delete("/posts/{post_id}")
+async def get_post(
+    post_id: int,
+    session: AsyncSession = Depends(get_async_session),
+):
+    try:
+        result = await session.execute(select(Post).where(Post.id == post_id))
+        post = result.scalars().first()
+
+        if not post:
+            raise HTTPException(status_code=404, detail="Post not found")
+
+        await session.delete(post)
+        await session.commit()
+
+        return {"success": True, "message": "Post deleted successfully"}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
