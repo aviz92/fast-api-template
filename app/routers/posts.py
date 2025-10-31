@@ -4,9 +4,9 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.db import Post, User, get_async_session
-from app.schemas import PostCreate, PostResponse
-from app.users import current_active_user
+from app.config.db import Post, User, get_async_session
+from app.config.schemas import PostCreate, PostResponse
+from app.config.users import current_active_user
 
 router = APIRouter(prefix="/posts", tags=["posts"])
 

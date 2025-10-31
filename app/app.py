@@ -3,10 +3,10 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from app.db import create_db_and_tables
+from app.config.db import create_db_and_tables
 from app.routers.posts import router as posts_router
-from app.schemas import UserCreate, UserRead, UserUpdate
-from app.users import auth_backend, fastapi_users
+from app.config.schemas import UserCreate, UserRead, UserUpdate
+from app.config.users import auth_backend, fastapi_users
 
 
 @asynccontextmanager
